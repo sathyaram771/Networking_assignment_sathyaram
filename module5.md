@@ -21,32 +21,32 @@ Assignment for Module 5
  - And thus with this, a communincation is established and ping occur.
    
 Fig-1:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/1_1.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/1_1.png)  
 Frame 1: (Request)  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/1_2.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/1_2.png)  
 Frame 2: (Reply)  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/1_3.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/1_3.png)  
   
   
 ## Q2) Using Packet Tracer, simulate an ARP spoofing attack. Analyze the behavior of devices on the network when they receive a malicious ARP response
 
 ### ARP Spoofing:
  - Create a general toplogy as the image , as we can see a threat PC has access to the switch.
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/2_!.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/2_!.png)  
  - PC1 is able to access the Server:  (along witht the ARP table)  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/2_2.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/2_2.png)  
  - Initial Threat PC configs and MAC address: 
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/2_3.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/2_3.png)  
  - The Threat PC can get the MAC address of the router which is as the pitcure below shows:  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/2_4.png)    
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/2_4.png)    
  - Before Spoofing:  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/2_5.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/2_5.png)  
  - After Spoofing:  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/2_6.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/2_6.png)  
  - When we see the ARP Table in the PC1, we can notice that the threat PC also has the same MAC address.
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/2_7.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/2_7.png)  
  - Now, when we try to access the Server , we can see that it is not reachable. This is because due to the spoofing, the threat PC sends a false ARP reply to the PC1 and establishes a wrong connection.
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/2_8.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/2_8.png)  
   
 The main challenge of this is that, with proper tools the attacker can read the data that the PC1 tries to send to the server which they can later modify , or forward traffic enabling a Man in the Middle Attack and data theft.
   
@@ -54,11 +54,11 @@ The main challenge of this is that, with proper tools the attacker can read the 
 ## Q3) Manually configure static IPs on the client devices (like PC or your mobile phone) and verify connectivity using ping.
 
 ### Initially on Phone, its set to DHCP by default and we can see the IP in the WIFI settings.    
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/3_3.jpg)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/3_3.jpg)  
 ### Trying to ping it from PC:    
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/3_1.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/3_1.png)  
 ### We can manually change the IP by changing from DHCp to static and settings up an IP address:    
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/3_4.jpg)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/3_4.jpg)  
 
       
 ## Q5) Given an IP address range of 192.168.1.0/24, divide the network into 4 subnets.  
@@ -82,10 +82,10 @@ New Mask: `11111111.11111111.11111111.11000000` or `255.255.255.192`  /24+2 = /2
   
 ###To Test:  
  - We can create the subnet topology in the Cisco Packet Tracer such as below.
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/5_1.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/5_1.png)  
  - And we can try to ping a PC from every Subnet from Subnet 1:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/5_2.png)  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/5_3.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/5_2.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/5_3.png)  
 As we can see it works.
 
          
@@ -112,19 +112,19 @@ Thus the given IP classification are:
 ##   Task: Test the NAT configuration by pinging an external IP address from the PCs and capture the traffic using Wireshark. What is the source IP address before and after NAT?  
 
 ### NAT Setup:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/7_1.png)    
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/7_1.png)    
 Router2 OSPF Setup: (Imitating NAT Router)    
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/7_3.png)   
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/7_3.png)   
 Router3 OSPF Setup: (Imitating ISP)   
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/7_4.png)   
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/7_4.png)   
 Internet Server Access from PC1   
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/7_2.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/7_2.png)  
 NAT Translation Table: (Empty because no Translations has been configured)  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/7_5.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/7_5.png)  
 Static NAT configuration: (Assigning a public and private)  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/7_6.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/7_6.png)  
 NAT Translation Table:  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/7_7.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod5/7_7.png)  
 
     
 --- 
