@@ -14,15 +14,15 @@ Assignment for Module 6
 
 ---
 ### WireShark: 
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/1_2.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/1_2.png)  
 
 ---
 ### ARP Request: 
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/1_3.png) 
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/1_3.png) 
 
 ---
 ### ARP Reply:  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/1_4.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/1_4.png)  
 
 ---
 ### Importance of ARP in packet forwarding:
@@ -35,11 +35,11 @@ Assignment for Module 6
 ## Q2) Manually configure static routes on a router to direct packets to different subnets.Use the ip route command and verify connectivity using ping and traceroute.
 
 ### We can use the similar setup from last module which is the 4 subnet setup. In the router settings, we can change the routes for each interface by typing `ip add <ip address> <subnet mask>`.
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/2_1.png)
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/2_1.png)
 
 ---
 ### Then we can see the ping and tracert to see the packet route for each ping from one pc to PCs from other subnets.
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/2_2.png)
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/2_2.png)
 
 ---
 ## Q3) Given a network address of 10.0.0.0/24, divide it into 4 equal subnets. Calculate the new subnet mask. Determine the valid host range for each subnet. Assign IP addresses to devices in Packet Tracer and verify connectivity.
@@ -62,12 +62,12 @@ New Mask: `11111111.11111111.11111111.11000000` or `255.255.255.192`  /24+2 = /2
 
 
 ### Setting up the Topolgy and IPs in the CISCO Packet Tracer: 
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/3_1.png)
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/3_1.png)
 
 ---
 ### Testing the connectivity by pinging from one PC to another in every subnet.
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/3_2.png)
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/3_3.png)
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/3_2.png)
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/3_3.png)
 
 ---
 
@@ -91,31 +91,31 @@ New Mask: `11111111.11111111.11111111.11000000` or `255.255.255.192`  /24+2 = /2
 ## Q5) In Cisco Packet Tracer, configure NAT on a router to allow internal devices (192.168.1.x) to access the internet.  Test connectivity by pinging an external public IP. Capture the traffic in Wireshark and analyze the source IP before and after NAT translation.
 (Similar to Q7 in module 5)
 ### NAT Setup
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/7_1.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/7_1.png)  
 
 ---
 ### Router2 OSPF Setup: (Imitating NAT Router)   
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/7_3.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/7_3.png)  
   
 ---
 ### Router3 OSPF Setup: (Imitating ISP)  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/7_4.png) 
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/7_4.png) 
   
 ---
 ### Internet Server Access from PC1   
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/7_2.png) 
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/7_2.png) 
   
 ---
 ### NAT Translation Table: (Empty because no Translations has been configured)    
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/7_5.png) 
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/7_5.png) 
   
 ---
 ### Static NAT configuration: (Assigning a public and private)    
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/7_6.png) 
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/7_6.png) 
   
 ---
 ### NAT Translation Table and Statistics:    
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/5_tran.png)  
+![Q1_1](hhttps://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod6/5_tran.png)  
   
 ---
 END of ASSIGNMENT for Module 6
