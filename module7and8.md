@@ -384,9 +384,6 @@ Router(config)#
 --- 
 ## Q15) Download iperf in laptop/phone and make sure they are in same network. Try different iperf commands with tcp, udp, bidirectional, reverse, multicast, parallel options and analyze the bandwidth and rate of transmission, delay, jitter etc.
 
-### TCP:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/15_1.png)     
-
 --- 
 ![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/15_2.jpg)     
 
@@ -398,16 +395,6 @@ Router(config)#
 ![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/15_4.jpg)     
 
 --- 
-### Reverse:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/15_5.png)     
-
---- 
-### Bi-Directional:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/15_6.png)     
-
---- 
-### Jitter:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/15_7.png)     
 
 --- 
 
