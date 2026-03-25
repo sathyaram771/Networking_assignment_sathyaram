@@ -125,18 +125,18 @@ Aliases:  www.cisco.com
 ## Q2) Use Wireshark to capture and analyze DNS, TCP, UDP traffic and packet header, packet flow, options and flags
 
 ### DNS:  (Flags are explanded in the packet frame analysis, also includes the source and dest)
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/2_1.png)    
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/2_2.png) 
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/2_1.png)    
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/2_2.png) 
 
 ---
 ### TCP:  (Flags are explanded in the packet frame analysis, also includes the source and dest)
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/2_3.png)   
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/2_4.png)    
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/2_3.png)   
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/2_4.png)    
 
 ---
 ### UDP: (Flags are explanded in the packet frame analysis, also includes the source and dest)
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/2_5.png)   
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/2_6.png)    
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/2_5.png)   
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/2_6.png)    
 
 ---
 
@@ -148,7 +148,7 @@ The tracert command (short for "trace route") is used in Windows to track the ro
 `tracert [options] target`
 ### Output Analysis:
  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/3_1.png)   
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/3_1.png)   
 For each hop it shows the  
  - **Hop number**: corresponding to the sequential order of the routers along the route.In this case , there is a total of 8 hops.
  - **Response Time**: It shows the RTT (round trip time) for each query sent for each hop. We can see that here in terms of ms.
@@ -159,60 +159,60 @@ For each hop it shows the
 ## Q5) Set up trunk ports between switches and try ping between different VLANs.
 
 ### CISCO Packet Tracer Setup:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/4_!.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/4_!.png)     
 
 ---
 ### Switch0 Config:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/4_2.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/4_2.png)  
 
 ---
 ### Switch0 VLAN LIST:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/4_3.png)   
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/4_3.png)   
 
 ---  
 ### Switch1 Config:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/4_4.png) 
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/4_4.png) 
 
 --- 
 ### Switch1 VLAN LIST:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/4_5.png) 
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/4_5.png) 
 
 ---   
 ### ICMP from Sales to other PCs:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/4_6.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/4_6.png)  
 
 ---
 ### ICMP from Engg to other PCs:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/4_7.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/4_7.png)  
 
 ---  
 
 ## Q6) Change the native VLAN on a trunk port. Test for VLAN mismatches and troubleshoot.
 
 ### CISCO Packet Tracer Setup is the same as prev question and Configuring a Native VLAN for Switch 0:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/6_1.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/6_1.png)     
 
 ---
 ### Switch0 gives an error and closes the trunk connection:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/6_2.png)  
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/6_2.png)  
 
 ---
 ### Adding Native Vlan to Switch1 as well:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/6_3.png)   
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/6_3.png)   
 
 ---  
 ### Error Resolved:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/6_4.png) 
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/6_4.png) 
 
 --- 
 ## Q7) Configure a management VLAN and assign an IP address for remote access. Test SSH or Telnet access to the switch
 
 ### CISCO PACKET TRACER Setup: 
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/7_1.png)       
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/7_1.png)       
 
 ---
 ### Setting up a Management VLAN:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/7_2.png)    
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/7_2.png)    
 
 ---
 ### Enabling SSH:
@@ -224,22 +224,22 @@ For each hop it shows the
 
 --- 
 ### Enabling Telnet:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/7_5.png)    
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/7_5.png)    
 
 ---
 ### Telnet:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/7_6.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/7_6.png)     
 
 ---  
 
 ## Q8) You have a Cisco switch and a VoIP phone that needs to be placed in a voice VLAN (VLAN 20). The data for the PC should remain in a separate VLAN (VLAN 10). Configure the switch port to support both voice and data traffic.
 
 ### CISCO Packet Tracer Setup:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/8_1.png)    
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/8_1.png)    
 
 ---
 ### Configuring the Switch and the resultant VLAN brief:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/8_2.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/8_2.png)     
 
 ---  
 
@@ -256,11 +256,11 @@ For each hop it shows the
 ---
 ## Q10) Try Inter VLAN routing with Router
 ### CISCO Packet Tracer Setup:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/10_1.png)    
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/10_1.png)    
 
 ---
 ### Configuring the Switch:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/10_2.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/10_2.png)     
 
 ---  
 ### COnfiguring the Router:
@@ -303,96 +303,96 @@ Router(config)#
 
 ```
 ### Testing the connectivity:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/10_3.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/10_3.png)     
 
 ---  
 ## Q11) Implement ACLs to restrict traffic based on source and destination ports. Test rules by simulating legitimate and unauthorized traffic.
 
 ### Configuring the Router to allow based on source:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/10_4.png)    
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/10_4.png)    
 
 ---
 ### ICMP from a valid Source:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/10_5.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/10_5.png)     
 
 --- 
 ### ICMP from a invalid Source:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/10_6.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/10_6.png)     
 
 --- 
 ## Q12) Configure a standard Access Control List (ACL) on a router to permit traffic from a specific IP range. Test connectivity to verify the ACL is working as intended.
 
 ### Configuring the Router to allow IP based on the given range:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/10_7.png)    
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/10_7.png)    
 
 ---
 ### ICMP from a valid Source:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/10_8.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/10_8.png)     
 
 --- 
 ### ICMP from a invalid Source:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/10_9.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/10_9.png)     
 
 --- 
 ## Q13) Create an extended ACL to block specific applications, such as HTTP or FTP traffic. Test the ACL rules by attempting to access blocked services.
 
 ### Configuring to block http connections:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/10_10.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/10_10.png)     
 
 --- 
 ### Trying to access the server:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/10_11.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/10_11.png)     
 
 --- 
 
 ## Q14) Try Static NAT, Dynamic NAT and PAT to translate IPs
 
 ### CISCO PACKET Tracer Setup:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/14_1.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/14_1.png)     
 
 --- 
 ## Q14) Try Static NAT, Dynamic NAT and PAT to translate IPs
 
 ### CISCO PACKET Tracer Setup:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/14_1.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/14_1.png)     
 
 --- 
 ### Setting up Static NAT:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/14_2.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/14_2.png)     
 
 ---
 
 ### NAT Translation Table for Static NAT:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/14_3.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/14_3.png)     
 
 --- 
 ### Setting up Dynamic NAT:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/14_4.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/14_4.png)     
 
 --- 
 ### NAT Translation Table for Dynamic NAT:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/14_5.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/14_5.png)     
 
 --- 
 ### Setting up PAT:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/14_6.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/14_6.png)     
 
 --- 
 ### NAT TRanslation Table for PAT:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/14_7.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/14_7.png)     
 
 --- 
 ## Q15) Download iperf in laptop/phone and make sure they are in same network. Try different iperf commands with tcp, udp, bidirectional, reverse, multicast, parallel options and analyze the bandwidth and rate of transmission, delay, jitter etc.
 
 --- 
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/15_2.jpg)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/15_2.jpg)     
 
 ---
 ### UDP:
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/15_3.png)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/15_3.png)     
 
 --- 
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod7%268/15_4.jpg)     
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Results-Mod7%268/15_4.jpg)     
 
 --- 
 
