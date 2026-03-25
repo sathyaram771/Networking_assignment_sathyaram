@@ -12,9 +12,6 @@ Assignment for Module 6
  - The reply is with the router MAC address to the source PC.
  - And thus with this, a communincation is established and ping occur.
 
-### Pinging The router:  
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/1_1.png)  
-
 ---
 ### WireShark: 
 ![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod6/1_2.png)  
