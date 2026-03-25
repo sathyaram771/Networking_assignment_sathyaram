@@ -11,17 +11,17 @@ Assignment for Module 7 and 8
 
 ---
 ```
-PS C:\Users\shara> Test-Connection www.google.com -Count 4
+PS C:\Users\sathya> Test-Connection www.google.com -Count 4
 
 Source        Destination     IPV4Address      IPV6Address                              Bytes    Time(ms)
 ------        -----------     -----------      -----------                              -----    --------
-SHARAN-PC     www.google.com  142.250.182.4                                             32       2
-SHARAN-PC     www.google.com  142.250.182.4                                             32       5
-SHARAN-PC     www.google.com  142.250.182.4                                             32       2
-SHARAN-PC     www.google.com  142.250.182.4                                             32       3
+Sathya-PC     www.google.com  142.250.182.4                                             32       2
+Sathya-PC     www.google.com  142.250.182.4                                             32       5
+Sathya-PC     www.google.com  142.250.182.4                                             32       2
+Sathya-PC     www.google.com  142.250.182.4                                             32       3
 
 
-PS C:\Users\shara> nslookup www.google.com
+PS C:\Users\sathya> nslookup www.google.com
 Server:  183.82.243.66.actcorp.in
 Address:  183.82.243.66
 
@@ -30,17 +30,17 @@ Name:    www.google.com
 Addresses:  2404:6800:4007:819::2004
           142.250.182.4
 
-PS C:\Users\shara> Test-Connection www.facebook.com -Count 4
+PS C:\Users\sathya> Test-Connection www.facebook.com -Count 4
 
 Source        Destination     IPV4Address      IPV6Address                              Bytes    Time(ms)
 ------        -----------     -----------      -----------                              -----    --------
-SHARAN-PC     www.facebook... 157.240.192.35                                            32       1
-SHARAN-PC     www.facebook... 157.240.192.35                                            32       2
-SHARAN-PC     www.facebook... 157.240.192.35                                            32       4
-SHARAN-PC     www.facebook... 157.240.192.35                                            32       1
+SATHYARAM-PC     www.facebook... 157.240.192.35                                            32       1
+SATHYARAM-PC     www.facebook... 157.240.192.35                                            32       2
+SATHYARAM-PC     www.facebook... 157.240.192.35                                            32       4
+SathyaRAM-PC     www.facebook... 157.240.192.35                                            32       1
 
 
-PS C:\Users\shara> nslookup www.facebook.com
+PS C:\Users\sathya> nslookup www.facebook.com
 Server:  183.82.243.66.actcorp.in
 Address:  183.82.243.66
 
@@ -50,17 +50,17 @@ Addresses:  2a03:2880:f137:182:face:b00c:0:25de
           157.240.192.35
 Aliases:  www.facebook.com
 
-PS C:\Users\shara> Test-Connection www.amazon.com -Count 4
+PS C:\Users\sathya> Test-Connection www.amazon.com -Count 4
 
 Source        Destination     IPV4Address      IPV6Address                              Bytes    Time(ms)
 ------        -----------     -----------      -----------                              -----    --------
-SHARAN-PC     www.amazon.com  18.67.156.60                                              32       1
-SHARAN-PC     www.amazon.com  18.67.156.60                                              32       3
-SHARAN-PC     www.amazon.com  18.67.156.60                                              32       5
-SHARAN-PC     www.amazon.com  18.67.156.60                                              32       3
+SATHYARAM-PC     www.amazon.com  18.67.156.60                                              32       1
+SATHYARAM-PC     www.amazon.com  18.67.156.60                                              32       3
+SATHYARAM-PC     www.amazon.com  18.67.156.60                                              32       5
+SATHYARAM-PC     www.amazon.com  18.67.156.60                                              32       3
 
 
-PS C:\Users\shara> nslookup www.amazon.com
+PS C:\Users\sathya> nslookup www.amazon.com
 Server:  183.82.243.66.actcorp.in
 Address:  183.82.243.66
 
@@ -78,17 +78,17 @@ Addresses:  2600:9000:2241:da00:7:49a5:5fd4:b121
 Aliases:  www.amazon.com
           tp.47cf2c8c9-frontier.amazon.com
 
-PS C:\Users\shara> Test-Connection www.github.com -Count 4
+PS C:\Users\sathya> Test-Connection www.github.com -Count 4
 
 Source        Destination     IPV4Address      IPV6Address                              Bytes    Time(ms)
 ------        -----------     -----------      -----------                              -----    --------
-SHARAN-PC     www.github.com  20.207.73.82                                              32       16
-SHARAN-PC     www.github.com  20.207.73.82                                              32       19
-SHARAN-PC     www.github.com  20.207.73.82                                              32       19
-SHARAN-PC     www.github.com  20.207.73.82                                              32       20
+SATHYARAM-PC     www.github.com  20.207.73.82                                              32       16
+SATHYARAM-PC     www.github.com  20.207.73.82                                              32       19
+SATHYARAM-PC     www.github.com  20.207.73.82                                              32       19
+SATHYARAM-PC     www.github.com  20.207.73.82                                              32       20
 
 
-PS C:\Users\shara> nslookup www.github.com
+PS C:\Users\sathya> nslookup www.github.com
 Server:  183.82.243.66.actcorp.in
 Address:  183.82.243.66
 
@@ -97,17 +97,17 @@ Name:    github.com
 Address:  20.207.73.82
 Aliases:  www.github.com
 
-PS C:\Users\shara> Test-Connection www.cisco.com -Count 4
+PS C:\Users\sathya> Test-Connection www.cisco.com -Count 4
 
 Source        Destination     IPV4Address      IPV6Address                              Bytes    Time(ms)
 ------        -----------     -----------      -----------                              -----    --------
-SHARAN-PC     www.cisco.com   23.209.254.61                                             32       2
-SHARAN-PC     www.cisco.com   23.209.254.61                                             32       2
-SHARAN-PC     www.cisco.com   23.209.254.61                                             32       4
-SHARAN-PC     www.cisco.com   23.209.254.61                                             32       5
+SATHYARAM-PC     www.cisco.com   23.209.254.61                                             32       2
+SATHYARAM-PC     www.cisco.com   23.209.254.61                                             32       2
+SATHYARAM-PC     www.cisco.com   23.209.254.61                                             32       4
+SATHYARAM-PC     www.cisco.com   23.209.254.61                                             32       5
 
 
-PS C:\Users\shara> nslookup www.cisco.com
+PS C:\Users\sathya> nslookup www.cisco.com
 Server:  183.82.243.66.actcorp.in
 Address:  183.82.243.66
 
