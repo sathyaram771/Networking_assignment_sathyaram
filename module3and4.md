@@ -9,32 +9,32 @@ Assignment for Module 3 and 4
   
 We can add different end devices , in this case 4 PC devices and 2 network devices as in the switches and conencted them using the connectivity tool. (As shown in the figure below)
   
-![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_1.jpg)
+![Q1_1](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_1.jpg)
   
 We can check the initial MAC address table of the switches by opening the Switch and navigating to the CLI Tab and typing in the command `show mac-address-table`
   
 #### Switch 0
-![Q1_2](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_2.png)
+![Q1_2](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_2.png)
 #### Switch 1
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_3.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_3.png)
 
 We can generate the traffic using the Ping command. (After initialising the IP configs), we can see the ip addresses of each devices. And we ping every other device from the PC0 using `ping ip-address`
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_4.png)  
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_4.png)  
     
 And now when we go see the MAC address table of each switches , we can notice the difference.
   
 #### Switch 0
-![Q1_2](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_5.png)
+![Q1_2](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_5.png)
 #### Switch 1
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_6.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_6.png)
 
 An alternate solution for the wireshark int his case to see the frames is to use the Sniffer in between the switches.
 
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_8.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_8.png)
 
 We can see the ICMP Packet Frame by clicking on the sniffer.
   
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_7.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_7.png)
 
 ### GNS3
 
@@ -42,18 +42,18 @@ Create the similar topology in the GNS3 tool.
 We can set the ip addresses of the end devices using `ip ip-address mask default-gateway` and see the ip using `show ip`
   
 #### PC 1
-![Q1_2](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_9.png)
+![Q1_2](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_9.png)
 #### PC 2
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_10.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_10.png)
   
 Generate traffic using ping `ping ip-address`.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_12.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_12.png)
 
 Ri8 click on the connection and press on capture packets. It should open the wireshark terminal and show all the captures packets as below.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_13.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_13.png)
   
 We can double click on a packet to analyze and see the frames.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q1_14.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q1_14.png)
 
 ---
 
@@ -63,21 +63,21 @@ We can double click on a packet to analyze and see the frames.
 
 Using the same topology as the previous question and the same ip addresses.
 
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q2_1.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q2_1.png)
 We can ping and create packets using the `ping` from PC1 to PC2 and open wireshark for that connection.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q2_2.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q2_2.png)
 Double click a frame to analyze it and open it in detail.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q2_3.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q2_3.png)
 We can see the Frame details as below
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q2_4.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q2_4.png)
 We can expand the EtherType and see the source and destination mac address.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q2_5.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q2_5.png)
 We can see the protocols.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q2_6.png)  
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q2_6.png)  
 ICMP structure:
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q2_7.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q2_7.png)
 Payload (reed highlighted is the data):
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q2_8.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q2_8.png)
   
 ---
   
@@ -85,26 +85,26 @@ Payload (reed highlighted is the data):
   
 ### Packet Tracer
 Create a small topology with 2 end devices and a swithc as shown below.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q3_1.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q3_1.png)
   
 #### Configure the IP:
 Click on the device. Go to the Desktop and click on Ip Config. There we can change the modes like DHCP or keep a static IP. Click on the Static (default) and change the IP addresses of the devices.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q3_2.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q3_2.png)
 Check the change by opening the command prompt and using the `ipconfig` command.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q3_3.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q3_3.png)
 Do the same for both the devices.
   
 #### Modify the MAC address:
 Click on the device. Go to the config tab and choose the ethernet interface. We can chaneg the MAC address of the device there.
 Previous:
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q3_4.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q3_4.png)
 Modified:
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q3_5.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q3_5.png)
 
 
 #### To check the conenctivity:
 Use the `ping ip-address` command
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q3_6.png)
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q3_6.png)
   
 ---
     
@@ -115,15 +115,15 @@ Use the `ping ip-address` command
 
 ### CISCO Packet Tracer
 Create a similar topology as shown in the figure below.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q4_!.png)  
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q4_!.png)  
 Use the `ping ip-address` from one device to another.If it fails like it does here,
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q4_2.png)  
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q4_2.png)  
 Use the `tracert` Traceroute command to see where the packets are getting lost.As we can see it gets lost from the beginnning.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q4_3.png)  
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q4_3.png)  
 Go to the second device and use the `ipconfig` command to ensure its the right IP address.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q4_4.png)  
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q4_4.png)  
 Retry with the correct ip address and also run the `tracert` to see the packet path.
-![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/Images-Mod3_4/Q4_5.png)  
+![Q1_3](https://github.com/sathyaram771/Networking_assignment_sathyaram/blob/main/Images-Mod3_4/Q4_5.png)  
 
 ---
     
