@@ -96,7 +96,7 @@ Retype new password:
 passwd: password updated successfully  
 Changing the user information for usershar  
 Enter the new value, or press ENTER for the default  
-	Full Name []: Sharan  
+	Full Name []: Sathya  
 	Room Number []:   
 	Work Phone []:   
 	Home Phone []:   
