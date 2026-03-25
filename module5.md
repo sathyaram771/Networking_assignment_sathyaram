@@ -59,26 +59,6 @@ The main challenge of this is that, with proper tools the attacker can read the 
 ![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/3_1.png)  
 ### We can manually change the IP by changing from DHCp to static and settings up an IP address:    
 ![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/3_4.jpg)  
-### Trying to ping the new IP address:      
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/3_2.png)  
-  
-        
-## Q4) Use Wireshark to capture DHCP Discover, Offer, Request, and Acknowledge messages and explain the process.
-
-### DHCP:
- - Open wireshark and the Local Network (Ethernet 3 in this case) and start the capture.
- - To capture the DHCP Packets, we can release the ipconfig of the PC using `ipconfig /release`
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/4_1.png)
- - To assign , we can use `ipconfig /renew`
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/4_2.png)
- - Go back to WireShark and filter by typing DHCP on the top.
-![Q1_1](https://github.com/SharanxD/LinuxTraining/blob/main/Networking/Results-Mod5/4_3.png)
-
-As we can see , we get the DHCP Discover, OFfer Request and ACknowledge Packets. The process includes:
- - DHCP Discover (Broadcast): if a client device has no IP address yet , it sends a DHCP discover message as a broadcast to find a DHCP server.
- - DHCP Offer: This is the server receiving the request and responding with a DHCP offer message. It wil include an available IP address, subnet mask, default gateway router, DNS servers and lease time.
- - DHCP Request: The client chooses the offered IP and sends a DHCP request to the server.
- - DHCP acknowledge: The DHCP confirms the assignment by sending a DHCP acknowledgement message. The assigned IP is temporary and has a lease time. Befire it expires the client sends a DHCP request again to renew the lease.If the lease expires without renewal, the IP is returned to the pool for other devices.
 
       
 ## Q5) Given an IP address range of 192.168.1.0/24, divide the network into 4 subnets.  
